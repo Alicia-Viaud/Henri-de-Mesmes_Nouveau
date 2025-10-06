@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="./xsl/custom.xsl"?>
+<?xml-model href="file:/Users/florencebrassard/Documents/GitHub/Henri-de-Mesmes/Pages%20encod%C3%A9es/tei_ms_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mémoires d'Henri de Mesmes : édition critique numérique</title>
+            <author><persName ref="https://isni.org/isni/0000000121402971"><nameLink>de</nameLink>
+                  <surname>Mesmes</surname>, <forename>Henri</forename>
+               </persName>(1532-1596)</author>
+            <editor><persName ref="https://isni.org/isni/0000000504833613" xml:id="AV"><surname>Viaud</surname>,<forename>Alicia</forename>,</persName><persName><surname>Moulin</surname>,<forename>Chloé</forename></persName>,
+                     <persName><surname>Brassard</surname>,<forename>Florence</forename></persName></editor>
+            <funder/>
+            <principal><persName ref="https://isni.org/isni/0000000504833613"><surname>Viaud</surname>,<forename>Alicia</forename></persName></principal>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="fr" type="composite">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>Département des manuscrits</repository>
+                  <collection>Français</collection>
+                  <idno>729</idno>
+                  <altIdentifier>
+                     <idno>Anc. 7162(3)</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>de Mesmes 546</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Henri de Mesmes, Opuscules et fragments</head>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+
+                        <support>
+                           <p><material/><locus/></p>
+                        </support>
+                        <extent><dimensions>
+                              <height/>
+                              <width/>
+                           </dimensions></extent>
+                        <foliation> </foliation>
+                        <foliation/>
+                        <collation/>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                     <!--                        layoutDesc - provisoire-->
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+                  <!--                     handDesc provisoire-->
+                  <bindingDesc>
+                     <binding>
+                        <condition/>
+                     </binding>
+                  </bindingDesc>
+                  <!--                     bindingDesc provisoire-->
+               </physDesc>
+               <history/>
+               <additional/>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Notes géographiques sur quelques lieux contestés des
+                           Commentaires de César avec plan et carte</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="main">De l'oraison de Xénophon sur les louanges
+                           d'Agésilas</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Traduction de divers passages de Plutarque sur les
+                           éclipses de lune et de soleil</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. 17r-33r</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Manuscrit autographe des Mémoires</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang mainLang="frm" otherLangs="la"/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Fragments</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Discours sur la mort de monsieur le président de
+                           Marsan</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+               <msPart>
+                  <msIdentifier>
+                     <idno>729 ff. </idno>
+                  </msIdentifier>
+                  <msContents>
+                     <summary/>
+                     <msItemStruct>
+                        <author/>
+                        <respStmt>
+                           <resp/>
+                           <persName/>
+                        </respStmt>
+                        <title type="desc">Discours pieux en latin</title>
+                        <incipit/>
+                        <explicit/>
+                        <decoNote/>
+                        <listBibl>
+                           <bibl/>
+                        </listBibl>
+                        <filiation/>
+                        <note/>
+                        <textLang/>
+                     </msItemStruct>
+                  </msContents>
+                  <physDesc/>
+                  <history/>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <glyph xml:id="pro_glyph"></glyph>
+            <glyph xml:id="con_glyph"></glyph>
+            <glyph xml:id="par_glyph"></glyph>
+            <glyph xml:id="nt_glyph"></glyph>
+            <glyph xml:id="que_glyph"></glyph>
+         </charDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <listChange>
+               <listChange>
+                  <change target="#ny_histoire #certes_soymesmes">L'emplacement de l'ajout à la
+                     phrase 3 (« Certes mieulx vaudroit avoir esté bien maistre de soymesmes »),
+                     dans la marge de gauche, suggère qu'il est ultérieur à l'ajout de la phrase 4
+                     (« ny ma ꝑfession les a produits dignes de grande histoire »).</change>
+               </listChange>
+            </listChange>
+         </creation>
+         <langUsage>
+            <language ident="frm"></language>
+            <language ident="la"></language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <xi:include href="1_f17r/f17rop1.xml"/>
+         <xi:include href="1_f17r/f17rop2.xml"/>
+         <xi:include href="1_f17r/f17rop3.xml"/>
+         <xi:include href="1_f17r/f17rop4.xml"/>
+         <xi:include href="1_f17r/f17rop5.xml"/>
+         <xi:include href="1_f17r/f17rop6.xml"/>
+         <xi:include href="2_f17v/f17vop1.xml"/>
+         <xi:include href="2_f17v/f17vop1.xml"/>
+         <xi:include href="2_f17v/f17vop2.xml"/>
+         <xi:include href="2_f17v/f17vop3.xml"/>
+         <xi:include href="2_f17v/f17vop4.xml"/>
+         <xi:include href="2_f17v/f17vop5.xml"/>e
+         <xi:include href="3_f18r/f18rop1.xml"/>
+         <xi:include href="3_f18r/f18rop2.xml"/>
+         <xi:include href="3_f18r/f18rop3.xml"/>
+         <xi:include href="3_f18r/f18rop4.xml"/>
+         <xi:include href="3_f18r/f18rop5.xml"/>
+         <xi:include href="3_f18r/f18rop6.xml"/>
+         <xi:include href="3_f18r/f18rop7.xml"/>
+         <xi:include href="3_f18r/f18rop8.xml"/>
+         <xi:include href="3_f18r/f18rop9.xml"/>
+      </body>
+   </text>
+</TEI>
